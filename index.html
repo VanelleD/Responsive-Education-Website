@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Educational Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/img/logo.png" alt="Logo" class="nav__logo-img" />
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Courses</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Dashboard</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="uil uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+
+          <a href="#" class="nav__link sign__in-desktop">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            Sign In
+          </a>
+
+          <a href="#" class="btn sign__in">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            Sign In
+          </a>
+
+          <a href="#" class="btn get__started">Get Started</a>
+        </div>
+      </nav>
+
+      <div class="nav__overlay" id="nav-overlay"></div>
+    </header>
+
+    <!--=============== HOME ===============-->
+    <section class="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">Find The Most Exciting Online Courses</h1>
+          <p class="home__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            voluptatum, quibusdam, quidem doloribus.
+          </p>
+          <div class="home__search">
+            <i class="fa-sharp fa-solid fa-magnifying-glass search__icon"></i>
+            <input
+              type="text"
+              class="search__input"
+              placeholder="Search Your Courses"
+            />
+            <button class="search__btn btn">Search</button>
+          </div>
+
+          <div class="home__info">
+            <div class="info__item">
+              <h4 class="info__no">72K</h4>
+              <span class="info__title">Appreciations</span>
+            </div>
+
+            <div class="info__item">
+              <h4 class="info__no">100</h4>
+              <span class="info__title">Countries</span>
+            </div>
+
+            <div class="info__item">
+              <h4 class="info__no">5.2K+</h4>
+              <span class="info__title">Courses</span>
+            </div>
+          </div>
+        </div>
+
+        <img src="assets/img/hero-img.png" class="home__img" alt="Hero" />
+      </div>
+    </section>
+
+    <!--=============== STATS ===============-->
+    <section class="stats">
+      <div class="stats__container container grid">
+        <div class="stats__item">
+          <div class="stats__icon">
+            <i class="fa-sharp fa-solid fa-book-journal-whills"></i>
+          </div>
+
+          <div class="stats__data">
+            <h3 class="stats__title">200+ Courses</h3>
+            <p class="stats__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
+              unde?
+            </p>
+          </div>
+        </div>
+
+        <div class="stats__item">
+          <div class="stats__icon">
+            <i class="fa-solid fa-business-time"></i>
+          </div>
+
+          <div class="stats__data">
+            <h3 class="stats__title">Lifetime Acess</h3>
+            <p class="stats__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
+              unde?
+            </p>
+          </div>
+        </div>
+
+        <div class="stats__item">
+          <div class="stats__icon">
+            <i class="fa-solid fa-user-shield"></i>
+          </div>
+
+          <div class="stats__data">
+            <h3 class="stats__title">800K+ Enrolled</h3>
+            <p class="stats__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta,
+              unde?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
